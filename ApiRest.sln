@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apresentacao", "{03DCB92C-E821-48CA-A077-5453E9C84899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR.Apresentacao", "AR.Apresentacao\AR.Apresentacao.csproj", "{0FEF803B-0859-496F-B47C-A3A5DFF80C5C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FEF803B-0859-496F-B47C-A3A5DFF80C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEF803B-0859-496F-B47C-A3A5DFF80C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEF803B-0859-496F-B47C-A3A5DFF80C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEF803B-0859-496F-B47C-A3A5DFF80C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FEF803B-0859-496F-B47C-A3A5DFF80C5C} = {03DCB92C-E821-48CA-A077-5453E9C84899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09A4FF1D-23DC-43C1-9A74-B5D58128887F}
